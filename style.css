@@ -62,4 +62,8 @@ nav li a:hover{
     nav ul{
         display: none;
     }
+
+    .links{
+        display: none;
+    }
 }
