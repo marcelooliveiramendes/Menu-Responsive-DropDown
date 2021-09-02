@@ -157,4 +157,15 @@ label #sidebar_btn:hover{
     .right-area{
         transform: translateY(-7px);
     }
+
+    .content{
+        margin-left: 0;
+        margin-top: 0;
+        padding: 10px 20px;
+        transition: 0s;
+    }
+
+    #check:checked ~ .content{
+        margin-left: 0;
+    }
 }
