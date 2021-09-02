@@ -137,5 +137,11 @@ label #sidebar_btn:hover{
 /* CSS MOBILE */
 
 @media screen and (max-width: 780px) {
-    
+    .sidebar{
+        display: none;
+    }
+
+    #sidebar_btn{
+        display: none;
+    }
 }
