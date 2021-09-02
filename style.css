@@ -144,4 +144,17 @@ label #sidebar_btn:hover{
     #sidebar_btn{
         display: none;
     }
+
+    .left-area {
+        display: flex;
+        align-items: center;
+    }
+    .left-area i{
+        display: block;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .right-area{
+        transform: translateY(-7px);
+    }
 }
