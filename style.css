@@ -75,3 +75,22 @@ header{
 .sidebar a:hover{
     background-color: #19b3d3;
 }
+
+.sidebar i{
+    padding-right: 10px;
+}
+
+label #sidebar_btn{
+    z-index: 1;
+    color: #fff;
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: .5s;
+    transition-property: color;
+}
+label #sidebar_btn:hover{
+    color: #19b3d3;
+}
