@@ -60,3 +60,18 @@ header{
     transition-property: left;
     overflow-y: auto;
 }
+
+.sidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: .5s;
+    transition-property: background;
+}
+.sidebar a:hover{
+    background-color: #19b3d3;
+}
