@@ -201,4 +201,25 @@ label #sidebar_btn:hover{
         margin-top: 70px;
         background-color: #2f323a;
     }
+
+    .mobile_nav_items a{
+        color: #fff;
+        display: block;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 60px;
+        text-decoration: none;
+        box-sizing: border-box;
+        transition: .5s;
+        transition-property: background;
+    }
+
+    .mobile_nav_items a:hover{
+        background-color: #19b3d3;
+    }
+
+    .mobile_nav_items i{
+        padding-right: 10px;
+
+    }
 }
