@@ -184,4 +184,21 @@ label #sidebar_btn:hover{
         align-items: center;
         padding: 10px 20px;
     }
+
+    .nav_bar .nav_btn{
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        transition: .5s;
+        transition-property: color;
+    }
+
+    .nav_bar .nav_btn:hover{
+        color: #19b3d3;
+    }
+
+    .mobile_nav_items{
+        margin-top: 70px;
+        background-color: #2f323a;
+    }
 }
