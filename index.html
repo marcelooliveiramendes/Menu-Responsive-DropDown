@@ -1,61 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu DropDown</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <script src="https://kit.fontawesome.com/9a7b0ad27e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <h1>LogoGX</h1>
-        <div class="bars">
-            <i id="hamburguer" class="fas fa-bars"></i>
-        </div>
-        <div class="links">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="slider">
-            <div class="sliders">
-                <div id="back" class="btn">
-                    <i class="fas fa-chevron-left"></i>
-                </div>
-                <div id="next" class="btn">
-                    <i class="fas fa-chevron-right"></i>
-                </div>
+    <input type="checkbox" id="check">
 
-                <div id="atual" class="image">
-                    <img src="img/image1.jpg" alt="" srcset="">
-                </div>
-                <div class="image">
-                    <img src="img/image2.png" alt="" srcset="">
-                </div>
-                <div class="image">
-                    <img src="img/image3.jpg" alt="" srcset="">
-                </div>
-                <div class="image">
-                    <img src="img/image4.jpg" alt="" srcset="">
-                </div>
-                <div class="image">
-                    <img src="img/image5.png" alt="" srcset="">
-                </div>
-
-                <div class="balls">
-                </div>
-            </div>
+    <header>
+        <label for="check">
+            <i class="fas fa-bars" id="sidebar_btn"></i>
+        </label>
+        <div class="left-area">
+            <i class="fa fa-bars nav_btn"></i>
+            <h3>Infix <span>Solutions</span></h3>
         </div>
+        <div class="right-area">
+            <a href="#" class="logout_btn">Logout</a>
+        </div>
+    </header>
+
+    <div class="mobile_nav">
+        <div class="mobile_nav_items">
+            <a href="#"><i class="fas fa-desktop"></i><span>Computadores</span></a>
+            <a href="#"><i class="fas fa-desktop"></i><span>Computadores</span></a>
+            <a href="#"><i class="fas fa-desktop"></i><span>Computadores</span></a>
+            <a href="#"><i class="fas fa-cogs"></i><span>Computadores</span></a>
+        </div>
+    </div>
+
+    <div class="sidebar">
+
+        <a href="#"><i class="fas fa-desktop"></i><span>Computadores</span></a>
+        <a href="#"><i class="fas fa-desktop"></i><span>Computadores</span></a>
+        <a href="#"><i class="fas fa-desktop"></i><span>Computadores</span></a>
+        <a href="#"><i class="fas fa-cogs"></i><span>Computadores</span></a>
 
     </div>
 
+    <div class="content">
 
-    <script src="https://kit.fontawesome.com/9a7b0ad27e.js" crossorigin="anonymous"></script>
+    </div>
 </body>
 </html>
