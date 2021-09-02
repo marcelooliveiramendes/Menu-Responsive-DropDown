@@ -27,3 +27,21 @@ header{
 .left-area span{
     color: #19b3d3;
 }
+
+.logout_btn{
+    padding: 5px;
+    background-color: #19b3d3;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFF;
+    transition: .5s;
+    transition-property: background;
+}
+.logout_btn:hover{
+    background-color: #0b87a6;
+}
